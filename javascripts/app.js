@@ -86,6 +86,16 @@ $(locations.a1).on("click", function () {
     locations.a1.innerHTML = "";
 });
 
+$(locations.e2).on("click", function () {
+    locations.e4.innerHTML = locations.e2.innerHTML;
+    locations.e2.innerHTML = "";
+});
+
+$(locations.e7).on("click", function () {
+    locations.e5.innerHTML = locations.e7.innerHTML;
+    locations.e7.innerHTML = "";
+});
+
 document.body.appendChild(table);
 }
 
